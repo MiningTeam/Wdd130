@@ -1,0 +1,116 @@
+div{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+nav a{
+    text-align: center;
+    color: #D55672;
+    text-decoration: none;
+    padding: 35px;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+main section img {
+    box-sizing: border-box;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+#background {
+    height: 725px;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0075A2;
+    color: #D55672;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #0075A2;
+    color: #D55672;
+}
+nav a:hover{
+    background-color: #0075A2;
+    color: #D55672;
+}
+.book, .join{
+    background-color: #0075A2;
+    text-align:center;
+    color: #D55672;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+.book:hover, .join:hover{
+    background-color: #0075A2;
+    color: #D55672;
+}
+#background{
+    background-color: #0075A2;
+    color: #D55672;
+}
+.msg{
+    background-color: #0075A2;
+    color: #D55672;
+    padding: 35px;
+}
+footer{
+    background-color: #0075A2;
+    color: #D55672;
+    padding: 25px 50px;
+    margin-top: 200px;
+
+}
+h4{
+    color: #D55672;
+}
+.msg h2{
+    color: #D55672;
+}
+.msg p{
+    color: #D55672;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+footer a{
+    font-size: 1.2em;
+    text-align: center;
+    color: #D55672;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #D55672;
+    text-decoration: underline;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+.home-title{
+    color: #D55672;
+    font-family: "Sofia", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#logo_link{   
+    padding-top: 5px;
+}
+footer .social img{   
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{   
+    margin: 200px 0;
+}

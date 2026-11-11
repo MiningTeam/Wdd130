@@ -1,0 +1,19 @@
+h1{
+    color: blue;
+    margin-left: 0px;
+    text-align: center;
+}
+p{
+    color: violet;
+    border-radius: 5px;
+    border-left: 100px;
+    text-align: center;
+}
+/* Margin, Boarder, Padding they are fine tunning stuff, More selectors stuff to do later, learn more wensday */
+/* p.subtitle-text, use that to make it only affect those with the Paragraphs not everything with subtitles
+Decendantcy select. A parapgraph inside a div*/
+div p span {
+    display:block;
+    font-weight:bolder;
+    font-size: 48px;
+}

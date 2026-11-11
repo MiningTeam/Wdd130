@@ -1,0 +1,251 @@
+
+div{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+nav a{
+    text-align: center;
+    color: #481620;
+    text-decoration: none;
+    padding: 35px;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+main section img {
+    box-sizing: border-box;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+#background {
+    height: 725px;
+    grid-column-start: 1fr;
+    grid-column-end: 11fr;
+    grid-row-start: 4fr;
+    grid-row-end: 9fr;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0075A2;
+    color: #481620;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #0075A2;
+    color: #481620;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+img{
+    display: flex;
+    size-adjust: auto;
+    max-width: 600px;
+    justify-self: center;
+    justify-content: center;
+}
+#logo_link{
+    display: grid;
+    padding-top: 5px;
+    justify-self: auto;
+    justify-content: 600px;
+    align-self: auto;
+    align-items: auto;
+    max-width: 50%;
+    max-height: 300px;
+    size-adjust: 50%;
+}
+nav a:hover{
+    background-color: #0075A2;
+    color: #481620;
+}
+.book, .join{
+    background-color: #0075A2;
+    text-align:center;
+    color: #481620;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+.book:hover, .join:hover{
+    background-color: #0075A2;
+    color: #481620;
+}
+#background{
+    background-color: #0075A2;
+    color: #481620;
+}
+.msg{
+    background-color: #0075A2;
+    color: #481620;
+    padding: 35px;
+    display: grid;
+    grid-column-start: 6fr;
+    grid-column-end: 10fr;
+    grid-row-start: 6fr;
+    grid-row-end: 7fr;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+footer{
+    background-color: #0075A2;
+    color: #481620;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h4{
+    color: #481620;
+}
+.msg h2{
+    color: #481620;
+}
+.msg p{
+    color: #481620;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+footer a{
+    font-size: 1.2em;
+    text-align: center;
+    color: #481620;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #481620;
+    text-decoration: underline;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+.home-title{
+    color: #481620;
+    font-family: "Sofia", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+footer .social img{   
+    padding-top: 15px;
+}
+.rivers-card {   
+    margin: 200px 0;
+    grid-column-start: 2fr; /* leaving this for now will fis later since too tired to do trial and error to get it centered */
+    grid-column-end: 4fr;
+    grid-row-start: 2fr;
+    grid-row-end: 3fr;
+}
+.camping-card{
+    margin: 200px 0;
+    grid-column-start: 5fr;
+    grid-column-end: 7fr;
+    grid-row-start: 2fr;
+    grid-row-end: 3fr;
+}
+.rapids-card {
+    margin: 200px 0;
+    grid-column-start: 8fr;
+    grid-column-end: 10fr;
+    grid-row-start: 2fr;
+    grid-row-end: 3fr;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg h4 {
+    color: white;
+}
+#hero-img {
+    width: 100%;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.card-img {
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.mountains {
+    width: 100%;
+    display: grid;
+    grid-column-start: 2fr; /* for proof I know both methods grid-column: 2/7fr */
+    grid-column-end: 7fr;
+    grid-row-start: 5fr;
+    grid-row-end: 8fr;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+@media screen and (max-width: 800px) {
+        #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    #hero-msg h1 {
+        color: #6f7364;
+    }
+    .home-title {
+        font-size: 25px;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}

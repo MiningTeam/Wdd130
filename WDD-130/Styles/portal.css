@@ -1,0 +1,17 @@
+/* Will deal with properly putting this in later
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&display=swap" rel="stylesheet"> */
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column: 20%;
+    grid-row: 300px; /* why do you not work? it says error why? */
+}
+img {
+    display: grid;
+    grid-column: 20%;
+    grid-row: 300px;
+}
